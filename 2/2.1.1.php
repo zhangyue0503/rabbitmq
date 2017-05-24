@@ -1,7 +1,4 @@
 <?php
-////引用所需文件
-//require_once  __DIR__.'/../vendor/autoload.php';
-//use PhpAmqpLib\Connection\AMQPStreamConnection;
 $conn_args = array(
     'host' => 'localhost',
     'port' => '5672',
