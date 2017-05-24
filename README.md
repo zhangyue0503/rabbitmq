@@ -1,2 +1,2 @@
-# rabbitmq
-rabbitmq
+# RabbitMQ
+PHP RabbitMQ练习
