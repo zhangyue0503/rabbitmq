@@ -1,4 +1,9 @@
 <?php
+/**
+ * 使用的amqp的php扩展包
+ * http://pecl.php.net/package/amqp
+ */
+
 $conn_args = array(
     'host' => 'localhost',
     'port' => '5672',
