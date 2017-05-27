@@ -9,8 +9,6 @@ $channel = $conn->channel();
 
 $result = $channel->queue_declare('', false, false, true);
 
-print_r($result);
-
 //上传图片
 $msg = new AMQPMessage("aaa", ['reply_to' => $result[0]]);
 $channel->basic_publish($msg, 'rpc', 'ping');
